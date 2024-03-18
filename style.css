@@ -1,0 +1,98 @@
+body{
+    background: rgb(12, 109, 40);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header{
+    background: rgb(12, 109, 40);
+    padding: 20px;
+}
+
+section {
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div{
+    /* width: 200px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px; */
+
+    padding: 1rem 2rem;
+    text-align: left;
+    position: relative; 
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+}
+
+footer{
+    background: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+p {
+    color: black;
+    text-align: left;
+   
+}
+
+img{
+    width: 20%;
+    border: 5px solid;
+    border-color: black;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: white;
+    box-shadow: black, red;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1{
+    font-size: medium;
+    color: black;
+    
+}
+
+.work{
+    font-size: small;
+    color: black;
+}
+
+.dot{
+    color: white;
+}
+
+i{
+    justify-content: left;
+}
+
+/* li{
+    text-align: left;
+    
+} */
